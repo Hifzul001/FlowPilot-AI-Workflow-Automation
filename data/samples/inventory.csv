@@ -1,0 +1,5 @@
+sku,product_name,current_stock,minimum_stock
+SKU-100,Canvas Tote,3,12
+SKU-101,Ceramic Mug,8,8
+SKU-102,Linen Shirt,0,6
+SKU-103,Desk Lamp,18,5

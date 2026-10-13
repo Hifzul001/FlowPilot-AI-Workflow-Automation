@@ -1,0 +1,3 @@
+order_id,customer_email,order_status,items,shipment_status,tracking_number,updated_at
+ORD-1001,maya@example.com,Shipped,Canvas Tote x1; Ceramic Mug x2,In transit,TRK-449210,2026-10-12
+ORD-1002,lee@example.com,Processing,Linen Shirt x1,Label created,TRK-449211,2026-10-13

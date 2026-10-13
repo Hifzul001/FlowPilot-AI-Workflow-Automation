@@ -1,0 +1,16 @@
+workflow_id,status,duration_seconds,error,slow_step
+WF001,success,2.1,,inventory comparison
+WF001,success,2.5,,inventory comparison
+WF002,failure,18.0,Vendor SKU missing,vendor join
+WF002,failure,22.0,Vendor SKU missing,vendor join
+WF002,success,14.0,,vendor join
+WF003,success,6.2,,file normalization
+WF004,success,8.5,,copy generation
+WF004,success,7.0,,copy generation
+WF004,failure,9.0,LLM timeout,copy generation
+WF005,success,1.3,,order lookup
+WF006,success,4.0,,similarity scan
+WF007,failure,21.0,Missing campaign dates,brief generation
+WF008,success,5.0,,intent classification
+WF009,success,3.2,,candidate ranking
+WF010,success,4.7,,aggregation
