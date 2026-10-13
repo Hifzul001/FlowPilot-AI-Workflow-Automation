@@ -1,13 +1,14 @@
 # FlowPilot AI
 
-Locally runnable, Excel-configured workflow automation for the recruiter assessment. The source workbook `data/assessment.xlsx` is preserved as provided. `data/workflows_config.xlsx` is the executable copy: it retains the source workflow and test-question text and adds argument schemas and declarative tool steps.
+FlowPilot AI is an Excel-driven business workflow automation platform powered by Python, Streamlit, and Google Gemini. It uses natural-language understanding to identify business workflows, extract required inputs, invoke registered tools, execute conditional logic, and return structured results with transparent execution traces.
+The system supports 10 business workflows through a shared execution engine and reusable tool registry. It uses simulated operational datasets where external business APIs are unavailable.
 
 ## Run locally
 
 Requires Python 3.11 or newer. Python 3.13.2 was used for the verified run.
 
 ```powershell
-py -3.11 -m venv .venv
+py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 if (-not (Test-Path .env)) { Copy-Item .env.example .env }
